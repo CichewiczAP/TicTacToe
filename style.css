@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #00539CFF;
+}
+nav, main {
+    background-color: #eea47fff;
+}
+main {
+    height: 100%;
+}
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+#board div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
